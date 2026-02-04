@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+htmlcov/
+.coverage.*
+.dist/
+build/
+dist/
+*.egg-info/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+.env/
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+.DS_Store
+
+# ---- Playwright / Test artifacts (may contain sensitive data) ----
+artifacts/
+playwright-report/
+test-results/
+
+# ---- Authentication state (contains session cookies/tokens) ----
+.auth/
+*.storage_state.json
+
+# ---- Local environment / overrides (never commit secrets) ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs ----
+*.log
+
+# ---- Optional: Jupyter / notebooks ----
+.ipynb_checkpoints/
